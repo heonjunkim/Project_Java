@@ -37,7 +37,7 @@ JAVA기반의 한국 영화 박스오피스 1~10위까지의 정보를 파싱 �
 ### 6.pom.xml
 -[pom.xml](): naver에서 build할 library 설정하는 장소
 
-### :speech_ballon:How to use?
+### :spech_ballon:How to use?
 1.BoxOfficeParser에서 발급받은 key를 교체한다.
 2. ReplyDAO에서 MongoDB를 세팅한다.(connect, DB, collection 등)
 3. 메인 프로그램을 실행한다.
