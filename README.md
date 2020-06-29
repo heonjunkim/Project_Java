@@ -18,7 +18,7 @@ JAVA기반의 한국 영화 박스오피스 1~10위까지의 정보를 파싱 �
 
 ## :floppy_disk:Repository struture descripton
 #### 1. src/ common
--[simpleMovieMain](): 프로그램 시작하는곳 + 콘솔 프로그래밍 view단
+-[simpleMovieMain](https://github.com/heonjunkim/Project_Java/blob/master/src/common/SimpleMovieMain.java): 프로그램 시작하는곳 + 콘솔 프로그래밍 view단
 -[BoxOfficeParser](): 한국영화 진흥위원회에서 일별 박스오피스 정보 수집(링크, 영화제목, 누적 관객수, 누적 매출액)
 
 ### 2.src/ naver
