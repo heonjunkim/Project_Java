@@ -19,15 +19,19 @@ JAVA기반의 한국 영화 박스오피스 1~10위까지의 정보를 파싱 �
 ## :floppy_disk:Repository struture descripton
 #### 1. src/ common
 -[simpleMovieMain](https://github.com/heonjunkim/Project_Java/blob/master/src/common/SimpleMovieMain.java): 프로그램 시작하는곳 + 콘솔 프로그래밍 view단
+
 -[BoxOfficeParser](https://github.com/heonjunkim/Project_Java/blob/master/src/common/BoxOfficeParser.java): 한국영화 진흥위원회에서 일별 박스오피스 정보 수집(링크, 영화제목, 누적 관객수, 누적 매출액)
 
 ### 2.src/ naver
 [BoxOfficeNaver](https://github.com/heonjunkim/Project_Java/blob/master/src/naver/BoxOfficeNaver.java): Naver에서 BoxOffcie 1~10위 까지 영화 코드(네이버 고유 영화코드) 수집
+
 [ReplyCrawlerNaver](https://github.com/heonjunkim/Project_Java/blob/master/src/naver/ReplyCrawlerNaver.java): Naver에서 해당 영화의 댓글 , 평점, 작성자, 작성일자 수집해서 MongoDB에 저장
 
 
 ### 3.src/daum
+
 [BoxOfficeDaum](https://github.com/heonjunkim/Project_Java/blob/master/src/daum/BoxOfficeDaum.java): Daum에서 BoxOffcie 1~10위 까지 영화 코드(다음 고유 영화코드) 수집
+
 [ReplyCrawlerDaum](https://github.com/heonjunkim/Project_Java/blob/master/src/daum/ReplyCrawlerDaum.java): daum에서 해당 영화의 댓글 , 평점, 작성자, 작성일자 수집해서 MongoDB에 저장
 
 ### 4.src/presitance
@@ -35,7 +39,7 @@ JAVA기반의 한국 영화 박스오피스 1~10위까지의 정보를 파싱 �
 ### 5. src/domain
 -ReplyDTO: 네이버, 다음에서 영화 댓글 수집후 MongoDB에 저장할때 사용하는 DTO
 ### 6.pom.xml
--[pom.xml](): naver에서 build할 library 설정하는 장소
+-[pom.xml](https://github.com/heonjunkim/Project_Java/blob/master/pom.xml): naver에서 build할 library 설정하는 장소
 
 ### :balloon:How to use?
 1.BoxOfficeParser에서 발급받은 key를 교체한다.
